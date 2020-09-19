@@ -6,7 +6,11 @@ namespace ChallengesWithTestsMark8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
+            var c = new ChallengesSet03();
+            var words = new string[] { "hello", "Yo", "Dani" };
+            c.ChangeAllElementsToUppercase(words);
+
+
         }
     }
 }
